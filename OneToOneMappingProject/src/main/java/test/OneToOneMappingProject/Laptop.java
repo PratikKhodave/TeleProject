@@ -13,7 +13,7 @@ public class Laptop {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int lap_id;
-	private String lap_name;
+	private String LapyName;
 	
 	public int getLap_id() {
 		return lap_id;
